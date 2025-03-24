@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -55,10 +56,10 @@ export const Footer = () => {
             <p>All rights reserved © 2025</p>
           </Col>
           <Col md={6} className="social-icons">
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#"><i className="fab fa-youtube"></i></a>
+            <FaFacebook  />
+            <FaInstagram   />
+            <FaTwitter  />
+            <FaEnvelope  />
           </Col>
         </Row>
       </Container>
